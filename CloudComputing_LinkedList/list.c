@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "list.h"
 
 /* 리스트를 처음 생성할 때 수행 */

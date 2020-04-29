@@ -3,9 +3,10 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<pthread.h>
 #include<time.h>
 #include<Windows.h>
+#include<pthread.h>
+
 #include "kvs.h"
 
 #define SEQUENTIAL_WRITE 0
