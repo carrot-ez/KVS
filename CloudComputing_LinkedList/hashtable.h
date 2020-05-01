@@ -2,7 +2,7 @@
 #include "list.h"
 
 // num buckets
-#define NUM_HASH_TABLE 16384
+#define NUM_HASH_TABLE 131072
 
 // visit all hashtable entries
 #define hashtable_for_each_safe(pos, n, ht) \
