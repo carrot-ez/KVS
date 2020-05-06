@@ -102,7 +102,7 @@ int kv_destroy_db(KVS_T *kvs) {
 	pthread_rwlock_destroy(&kvs->lock);
 #endif
 
-	skiplist_clear(&kvs->list);
+	skiplist_free(&kvs->list);
 
 	free(kvs);
 	return 1;

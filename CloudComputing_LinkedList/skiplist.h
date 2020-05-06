@@ -1,6 +1,6 @@
 #pragma once
 
-#define SKIPLIST_MAX_LEVEL  16
+#define SKIPLIST_MAX_LEVEL  23
 
 #define skiplist_for_each_safe(pos, n, head) \
 	for(pos = (head)->forward[1], n = pos->forward[1]; \
@@ -31,3 +31,5 @@ static void skiplist_node_free(snode* x);
 int skiplist_delete(skiplist* list, int key);
 
 int skiplist_clear(skiplist *list);
+
+void skiplist_free(skiplist* list);

@@ -22,12 +22,14 @@
     <ClCompile Include="hashtable.c" />
     <ClCompile Include="kvs.c" />
     <ClCompile Include="list.c" />
+    <ClCompile Include="skiplist.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hashtable.h" />
     <ClInclude Include="kvs.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="skiplist.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

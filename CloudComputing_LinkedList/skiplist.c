@@ -149,3 +149,8 @@ int skiplist_clear(skiplist *list) {
 
 	return 0;
 }
+
+void skiplist_free(skiplist* list) {
+    skiplist_clear(list);
+    skiplist_node_free(list->header);
+}
